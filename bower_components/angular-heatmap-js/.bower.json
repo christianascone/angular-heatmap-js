@@ -1,0 +1,39 @@
+{
+  "name": "angular-heatmap-js",
+  "description": "Angular JS Directive for Patrick Wied's heatmap.js",
+  "license": "MIT",
+  "version": "0.0.2",
+  "homepage": "https://github.com/christianascone/angular-heatmap-js",
+  "authors": [
+    "Christian Ascone <ascone.christian@gmail.com>"
+  ],
+  "main": [
+    "dist/angular-heatmap-js.js"
+  ],
+  "keywords": [
+    "heatmap",
+    "angular",
+    "directive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christianascone/angular-heatmap-js.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": ">=1.3 <2.0",
+    "heatmap.js-amd": "*"
+  },
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.2",
+    "commit": "aaabee57ec811dd41dc9629852fc24d0b77c1244"
+  },
+  "_source": "https://github.com/christianascone/angular-heatmap-js.git",
+  "_target": "0.0.2",
+  "_originalSource": "angular-heatmap-js"
+}
