@@ -13,6 +13,14 @@ angular.module('angular-heatmap-js')
       div.style.width = width;
       div.style.height = height;
 
+      if(ctrl.width){
+        div.style.width = ctrl.width+"px";
+      }
+
+      if(ctrl.height){
+        div.style.height = ctrl.height+"px";
+      }
+
       // New instance for heatmap with div as container
       ctrl.heatmapInstance = h337.create({
         container: div
@@ -27,7 +35,9 @@ angular.module('angular-heatmap-js')
     return {
       restrict: 'E',
       bindToController: {
-        'heatmapData': '='
+        'heatmapData': '=',
+        'width': '=',
+        'height': '='
       },
       template: '<div id="angular-heatmap-js-container" container></div>',
       controller: 'angularHeatmapController',
