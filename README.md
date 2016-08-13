@@ -1,5 +1,10 @@
-# angular-heatmap-js
+angular-heatmap-js
+==================
 Angular JS Directive for Patrick Wied's [heatmap.js](https://github.com/pa7/heatmap.js)
+
+[![GitHub release](https://img.shields.io/github/release/christianascone/angular-heatmap-js.svg?maxAge=2592000)](https://github.com/christianascone/angular-heatmap-js/releases/latest)
+[![Bower version](https://badge.fury.io/bo/angular-heatmap-js.svg)](https://badge.fury.io/bo/angular-heatmap-js)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/christianascone/angular-heatmap-js/blob/master/LICENSE)
 
 ## Installation
 
