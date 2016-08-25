@@ -2,7 +2,7 @@
   "name": "angular-heatmap-js",
   "description": "Angular JS Directive for Patrick Wied's heatmap.js",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/christianascone/angular-heatmap-js",
   "authors": [
     "Christian Ascone <ascone.christian@gmail.com>"
