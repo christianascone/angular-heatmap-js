@@ -41,8 +41,8 @@ angular.module('angular-heatmap-js')
       // When the mouse is hover the heatmap, it checks
       // the coordinates and set the tooltip visibility
       ctrl.container.onmousemove = function(ev) {
-        var x = ev.layerX;
-        var y = ev.layerY;
+        var x = ev.offsetX;
+        var y = ev.offsetY;
         // getValueAt gives us the value for a point p(x/y)
         var value = ctrl.heatmapInstance.getValueAt({
           x: x,
